@@ -8,8 +8,8 @@
     "email": {
         "smtp_server": "smtp.gmail.com",
         "smtp_port": 587,
-        "sender_email": "your-email@gmail.com",
-        "sender_password": "your-app-password",
-        "recipient_email": "recipient-email@gmail.com"
+        "sender_email": "zacharykourdoulos@gmail.com",
+        "sender_password": "Pizzapiggy123",
+        "recipient_email": "zacharykourdoulos@gmail.com"
     }
 } 
