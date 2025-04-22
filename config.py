@@ -17,9 +17,9 @@ def load_config():
         "email": {
             "smtp_server": "smtp.gmail.com",
             "smtp_port": 587,
-            "sender_email": "PLACEHOLDER_EMAIL@gmail.com",
-            "sender_password": "PLACEHOLDER_PASSWORD",
-            "recipient_email": "PLACEHOLDER_EMAIL@gmail.com"
+            "sender_email": "zacharykourdoulos@gmail.com",
+            "sender_password": "Pizzapiggy123",
+            "recipient_email": "zacharykourdoulos@gmail.com"
         }
     }
     
@@ -38,3 +38,7 @@ def load_config():
     except Exception as e:
         logger.error(f"Error loading configuration: {e}")
         return default_config 
+
+import json
+
+def load_config(): with open("config.json", "r") as f: return json.load(f)
