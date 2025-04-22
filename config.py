@@ -17,9 +17,9 @@ def load_config():
         "email": {
             "smtp_server": "smtp.gmail.com",
             "smtp_port": 587,
-            "sender_email": "zacharykourdoulos@gmail.com",
-            "sender_password": "Pizzapiggy123",
-            "recipient_email": "zacharykourdoulos@gmail.com"
+            "sender_email": "ZKK@gmail.com",
+            "sender_password": "PLACEHOLD",
+            "recipient_email": "ZKK@gmail.com"
         }
     }
     
