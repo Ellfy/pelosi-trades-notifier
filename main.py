@@ -39,3 +39,9 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main()) 
+
+from config import load_config
+config = load_config()
+
+sender = config["email"]["sender"]
+recipient = config["email"]["recipients"][0]
