@@ -9,7 +9,7 @@ def load_config():
     """Load configuration from external file or use defaults"""
     default_config = {
         "base_url": "https://disclosures-clerk.house.gov/FinancialDisclosure",
-        "search_url": "https://disclosures-clerk.house.gov/FinancialDisclosure/ViewDisclosurePTP",
+        "search_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/{trade_id}.pdf",
         "last_name": "pelosi",
         "filing_year": datetime.datetime.now().year,
         "check_interval_seconds": 3,
