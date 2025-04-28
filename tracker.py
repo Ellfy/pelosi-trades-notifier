@@ -93,7 +93,7 @@ class PelosiTradesTracker:
                     if pdf_link and 'href' in pdf_link.attrs:
                         pdf_url = pdf_link['href']
                         if not pdf_url.startswith('http'):
-                            pdf_url = f"https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025FD.zip{pdf_url}"
+                            pdf_url = f"https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/{trade_id}.pdf"
                         
                         # Generate a unique ID for this disclosure
                         disclosure_id = f"{name}_{filing_type}_{pdf_url}"
