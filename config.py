@@ -12,7 +12,7 @@ def load_config():
         "search_url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/{trade_id}.pdf",
         "last_name": "pelosi",
         "filing_year": datetime.datetime.now().year,
-        "check_interval_seconds": 3,
+        "check_interval_seconds": 200,
         "data_file": "pelosi_disclosures.json",
         "email": {
             "smtp_server": "smtp.gmail.com",
